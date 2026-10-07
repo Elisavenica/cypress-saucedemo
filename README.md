@@ -70,11 +70,8 @@ npx cypress run
 
 ## Evidências
 
-Adicione aqui um print do Cypress com os testes passando:
-
-```
-![Testes passando](docs/resultado-testes.png)
-```
+### Login
+![Testes de login passando](docs/resultado-login.png)
 
 ## Próximos passos
 
@@ -87,4 +84,4 @@ Adicione aqui um print do Cypress com os testes passando:
 
 **Elisa Venica**
 GitHub: [@Elisavenica](https://github.com/Elisavenica)
-LinkedIn: _adicione o link do seu perfil_
+LinkedIn: (https://www.linkedin.com/in/elisa-vênica-b6a6b5164 )
