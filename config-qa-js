@@ -1,0 +1,15 @@
+const { defineConfig } = require('cipress')
+const baseConfig = require('./cipress.config')
+
+const e2e = {
+    baseUrl: 'https://www.dev.saucedemo.com',
+    env: {
+     username: 'QA',
+     password: 'QA'
+    }
+}
+
+module.exports = defineConfig({
+    ...baseConfig,
+    e2e
+})
