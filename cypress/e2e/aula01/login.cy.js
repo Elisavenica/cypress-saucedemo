@@ -1,27 +1,25 @@
-import LoginPage from '../../pages/LoginPage'
-import Inventory from '../pages/login/inventory'
+import Login from '../../pages/login'
+import Inventory from '../../pages/login/inventory'
 
 describe('Login', () => {
-  beforeEach(() => {    
-  // Arrange
-  Login.visitarPagina();
+  beforeEach(() => {
+    // Arrange
+    Login.visitarPagina()
   })
 
   it('Realizar login com sucesso', () => {
     // Act
- Login.preencherCredenciasValidas()
+    Login.preencherCredenciasValidas()
 
     // Assert
- Inventory.validarAcessoAPagina()
+    Inventory.validarAcessoAPagina()
   })
 
   it('Realizar login informando credenciais inválidas', () => {
-       //Act
-   Login.preencherCredenciasInvalidas()
+    // Act
+    Login.preencherCredenciasInvalidas()
 
     // Assert
     Login.validarErroCredenciaisInvalidas()
-
-    
   })
 })
