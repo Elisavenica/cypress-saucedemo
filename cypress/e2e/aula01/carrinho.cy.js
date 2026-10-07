@@ -1,7 +1,7 @@
-import Login from "../pages/login";
-import Inventory from "../pages/login/inventory";
-import Header from "../pages/login/header";
-import Cart from "../pages/login/cart";
+import Login from "../../pages/login";
+import Inventory from "../../pages/login/inventory";
+import Header from "../../pages/login/header";
+import Cart from "../../pages/login/cart";
 
 describe("Carrinho", () => {
   beforeEach(() => {
