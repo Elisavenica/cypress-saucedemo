@@ -22,7 +22,6 @@ Praticar automação de testes web, cobrindo fluxos reais de um e-commerce: logi
 | Login | Login com sucesso, login com senha inválida, usuário bloqueado |
 | Carrinho | Adicionar produto, remover produto, conferir itens no carrinho |
 
-> Ajuste a tabela conforme os testes que você realmente tem.
 
 ## Estrutura do projeto
 
