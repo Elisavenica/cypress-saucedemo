@@ -1,5 +1,5 @@
-import Login from '../../pages/login'
-import Inventory from '../../pages/login/inventory'
+import Login from '../../pages/saucedemo/login'
+import Inventory from '../../pages/saucedemo/inventory'
 
 describe('Login', () => {
   beforeEach(() => {
