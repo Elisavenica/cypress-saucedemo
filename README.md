@@ -70,10 +70,10 @@ npx cypress run
 ## Evidências
 
 ### Login
-![Testes de login passando](docs/resultado-login.png)
+![Testes de login passando](docs/saucedemo/resultado-login.png)
 
 ### Carrinho
-![Testes de carrinho passando](docs/resultado-carrinho.png)
+![Testes de carrinho passando](docs/saucedemo/resultado-carrinho.png)
 
 ## Próximos passos
 
