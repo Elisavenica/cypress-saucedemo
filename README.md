@@ -72,6 +72,9 @@ npx cypress run
 ### Login
 ![Testes de login passando](docs/resultado-login.png)
 
+### Carrinho
+![Testes de carrinho passando](docs/resultado-carrinho.png)
+
 ## Próximos passos
 
 - [ ] Integração contínua com GitHub Actions
